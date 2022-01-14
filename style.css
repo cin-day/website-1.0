@@ -6,12 +6,13 @@
 
 div {
   border: 4px solid rgb(100, 42, 100);
-  padding: 16px;
+  padding: 20px;
 }
 
 img {
-  height: auto;
-  width: 500px;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
 }
 
 .base {
@@ -24,13 +25,26 @@ img {
   background-image: linear-gradient(#D78989, #6F4747);
   display:flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
+/* font-family: "DM Sans",sans-serif;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+color: #fff; */
+
+/* font size: 96px, 74? - sans-serif */
+
 .left-image {
-  font-family: "DM Sans",sans-serif;
 }
 
 .right-text {
-  font-family: "DM Sans",sans-serif;
+  font-family: sans-serif,"DM Sans";
+  font-weight: bold;
 }
