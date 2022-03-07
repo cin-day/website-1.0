@@ -1,2 +1,1 @@
-Welcome to my profile! :)
-[cin-day.github.io]
+Welcome to my profile :)
