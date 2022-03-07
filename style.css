@@ -6,14 +6,12 @@
 
 div {
   /* border: 2px solid rgb(100, 42, 100); */
-  padding: 20px;
 }
 
 img {
+  /* border: 2px solid red; */
   object-fit: cover;
-  height: 400px;
-  width: 400px;
-  box-shadow: 0 4px 60px rgba(0,0,0,.5);
+  
 }
 
 .base {
@@ -23,9 +21,7 @@ img {
   bottom: 0;
   right: 0;
   overflow: auto;
-  /* background-image: linear-gradient(#D78989, #6F4747); */
   background-image: linear-gradient(#617398, #414c66);
-  /* background-color: #A7C7E7; */
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -47,23 +43,40 @@ color: #fff; */
 .left-image {
   display: flex;
   justify-content: center;
-  width: 30%;
+  height: 400px;
+  width: 400px;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.profile-img {
+  box-shadow: 0 4px 60px rgba(0,0,0,.5);
 }
 
 .right-text {
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: Trebuchet MS;
+  /* font-weight: bold; */
   color: white;
   flex-direction: column;
   justify-content: center;
   width: 40%;
 }
 
-.intro1, .name, .intro2 {
+.intro1, .name, .intro2, .sm_icon {
   padding: 0%;
+  padding-top: 7px;
+  padding-bottom: 7px
 }
 
 .name {
   font-size: 50pt;
-  padding: 7px;
+}
+
+.sm_icon {
+  height: auto;
+  width: 40px;
+}
+
+.icon_link:hover {
+  opacity: 0.7;
 }
