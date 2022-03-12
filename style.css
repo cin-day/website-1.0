@@ -75,6 +75,7 @@ img {
   display: flex;
   justify-content: left;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .icon_link:hover, .icon_link:focus, .icon_link:active, .icon_link:visited, .icon_link:link {
