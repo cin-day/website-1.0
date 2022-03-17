@@ -21,4 +21,4 @@ async function type(sentence, delay = 100) {
     }
 }
 
-type("Hey, over here!")
+type("Hey, over here!");

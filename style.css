@@ -72,8 +72,8 @@ img {
 #typing-text {
 	/* display: inline-block; */
 	vertical-align: middle;
-	color: orange;
-	letter-spacing: 2px;
+	color: crimson;
+	/* letter-spacing: 2px; */
 }
 
 #cursor {
