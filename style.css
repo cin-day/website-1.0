@@ -69,7 +69,14 @@ img {
   align-items: center;
 }
 
-.cursor {
+#typing-text {
+	/* display: inline-block; */
+	vertical-align: middle;
+	color: orange;
+	letter-spacing: 2px;
+}
+
+#cursor {
   display: inline-block;
   width: 2px;
   height: 42px;
