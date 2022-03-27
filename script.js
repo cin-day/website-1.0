@@ -17,28 +17,22 @@ async function typeAnim(sentence, delay = 100) {
     let len = letters.length;
     for (let i = 0; i < len; i++) {
         await waitDelay(delay);
+        clearTimeout(timeout);
         textElement.append(letters[i]);
     }
 }
 
 async function deleteAnim(delay = 20) {
     const sentence = textElement.textContent;
-    // const sentence = textElement.html();
     const letters = sentence.split("");
     let len = letters.length;
     for (let i = 0; i < len; i++) {
         await waitDelay(delay);
+        clearTimeout(timeout);
         letters.pop();
         textElement.textContent = letters.join("");
-        // textElement.html(letters.join(""));
     }
 }
-
-// $( document ).ready(async function() {
-    // typeAnim("Hey, over here!");
-    // waitForMs(2000);
-    // deleteAnim();
-// });
 
 async function type() {
     let i = 0;
@@ -46,8 +40,10 @@ async function type() {
     while(true) {
         await typeAnim(sentences[i]);
         await waitDelay(1500);
+        clearTimeout(timeout);
         await deleteAnim();
         await waitDelay(500);
+        clearTimeout(timeout);
         i++;
         if (i >= len) {i = 0;}
     }

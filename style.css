@@ -74,7 +74,6 @@ img {
 	display: inline-block;
 	vertical-align: middle;
 	color: #4E3D38;
-	/* letter-spacing: 2px; */
 }
 
 #cursor {
@@ -82,9 +81,7 @@ img {
   width: 2px;
   height: 20px;
   background-color: #7F6757;
-  /* margin-left: 8px; */
   animation: blink .6s linear infinite alternate;
-  /* animation: linear infinite; */
 }
 
 @keyframes blink {
