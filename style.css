@@ -53,7 +53,7 @@ img {
   width: 40%;
 }
 
-.intro1, .name, .intro2, .sm_icon {
+.intro, .name, .sm_icon {
   padding: 0%;
   padding-top: 7px;
   padding-bottom: 7px
@@ -67,22 +67,24 @@ img {
   display: flex;
   justify-content: left;
   align-items: center;
+  height: 32px;
 }
 
 #typing-text {
-	/* display: inline-block; */
+	display: inline-block;
 	vertical-align: middle;
-	color: crimson;
+	color: #4E3D38;
 	/* letter-spacing: 2px; */
 }
 
 #cursor {
   display: inline-block;
   width: 2px;
-  height: 42px;
+  height: 20px;
   background-color: #7F6757;
-  margin-left: 8px;
+  /* margin-left: 8px; */
   animation: blink .6s linear infinite alternate;
+  /* animation: linear infinite; */
 }
 
 @keyframes blink {
