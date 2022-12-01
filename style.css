@@ -1,9 +1,4 @@
-/* div {
-  border: 2px solid tomato;
-} */
-
 img {
-  /* border: 2px solid red; */
   object-fit: cover;
 }
 
@@ -25,7 +20,7 @@ img {
 .left-image {
   display: flex;
   justify-content: center;
-  padding: 75px;
+  margin-right: 75px;
 }
 
 .circle {
@@ -41,7 +36,6 @@ img {
 .profile-img {
   height: 400px;
   width: 400px;
-  margin: 0;
   border-radius: 50%;
 }
 
